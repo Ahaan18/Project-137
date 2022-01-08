@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AI OBJECT FINDER</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+    </head>
+    <body background="istockphoto-1248542684-612x612.jpg">
+        <center>
+        <h1 id="header" class="btn btn-primary font">AI OBJECT FINDER</h1>
+        <br>
+        <h2 class="btn btn-info font">The input name which you will give should match the names present in CoCo model then only it will detect</h2>
+        <br>
+        <h4 class="font">Object name:</h4>
+        <input class="form-control" id="textbox"  placeholder="eg. cheetah">
+        <br>
+        <button class="btn btn-success font" onclick="start()">Start</button>
+        <br>
+        <h3 class="btn btn-danger font" id="status">Status: Object not detected</h3>
+<h3 class="btn btn-warning font" id="object">Detection not started</h3>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>

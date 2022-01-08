@@ -1,0 +1,31 @@
+body{
+    background-size: cover;
+}
+.font{
+    font-size: 20px;
+}
+#header{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;  
+}
+#textbox{
+    width: 400px;
+}
+#defaultCanvas0{
+    animation-name: canv1as;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+    border: 2px solid white;
+   border-radius: 10px;
+   margin-top:130px;
+}
+@keyframes canv1as{
+from{
+    border: 5px solid green;
+}
+to{
+    border: 15px solid purple;
+}
+}
